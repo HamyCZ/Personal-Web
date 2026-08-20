@@ -1,0 +1,25 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+ehthumbs.db
+
+# Editors / local tooling
+.cursor/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Secrets and deploy leftovers — never commit
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials.json
+.htpasswd
+*.ftpconfig
+
+# Unused leftover stylesheet (live site uses /hamy.css)
+www/css/

@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.hamy.cz/#person",
+      "name": "Michal Hamerník",
+      "url": "https://www.hamy.cz/",
+      "jobTitle": "Murex Back Office Consultant",
+      "worksFor": { "@type": "Organization", "name": "DXC Luxoft" },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Brno University of Technology" },
+        { "@type": "CollegeOrUniversity", "name": "Nottingham Trent University" }
+      ],
+      "knowsAbout": ["Murex", "foreign exchange", "money markets", "fixed income", "confirmations", "settlements"],
+      "sameAs": [
+        "https://www.linkedin.com/in/michal-hamern%C3%ADk-74022040"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.hamy.cz/#website",
+      "url": "https://www.hamy.cz/",
+      "name": "hamy.cz",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://www.hamy.cz/#person" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://www.hamy.cz/interval-training/#app",
+      "name": "Interval Training",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Android",
+      "url": "https://www.hamy.cz/interval-training/",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.intervaltraining.app",
+      "installUrl": "https://play.google.com/store/apps/details?id=com.intervaltraining.app",
+      "image": "https://www.hamy.cz/images/interval-training-icon.png",
+      "author": { "@id": "https://www.hamy.cz/#person" },
+      "isAccessibleForFree": true,
+      "description": "Offline Android interval timer for boxing, Tabata, CrossFit, floorball, and field tests such as Beep, PACER, Yo-Yo, and Bronco.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "sameAs": [
+        "https://play.google.com/store/apps/details?id=com.intervaltraining.app",
+        "https://interval-training-4bdbf.web.app/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Contact: https://www.linkedin.com/in/michal-hamern%C3%ADk-74022040
+Expires: 2027-08-19T00:00:00.000Z
+Preferred-Languages: en, cs
+Canonical: https://www.hamy.cz/.well-known/security.txt

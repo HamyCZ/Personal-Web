@@ -1,0 +1,1 @@
+window.HAMY_GA_ID = "G-LM0K6WRVYE";
