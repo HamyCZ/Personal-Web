@@ -20,6 +20,7 @@ ehthumbs.db
 credentials.json
 .htpasswd
 *.ftpconfig
+**/.htaccess
 
 # Unused leftover stylesheet (live site uses /hamy.css)
 www/css/
